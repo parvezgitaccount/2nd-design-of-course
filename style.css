@@ -1,0 +1,230 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.button {
+    color: green;
+    background-color: rgb(51, 255, 0);
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px 40px;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: red;
+    background-color: gray;
+    transition: 2s;
+    padding: 10px 50px;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: -10px;
+}
+
+
+/* start header section  */
+
+.home {
+    width: 100%;
+    height: 1000px;
+}
+
+.home::before {
+    content: '';
+    background: url('header-bg.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.container {
+    float: left;
+}
+
+.home1 {
+    width: 50%;
+    float: left;
+}
+
+.home1 img {
+    width: 70%;
+    height: 70%;
+    padding: 20px 10px;
+}
+
+.home1 div {
+    padding-top: 200px;
+    width: 80%;
+    margin: auto;
+}
+
+.home1 h3 {
+    font-size: 40px;
+    color: green;
+    padding: 20px 10px;
+}
+
+.home1 h1 {
+    font-size: 80px;
+    color: gray;
+    font-style: italic;
+}
+
+.home1 p {
+    font-size: 35px;
+    padding: 20px 10px;
+    color: blue;
+    font-style: oblique;
+    text-align: justify;
+}
+
+
+/* end header section  */
+
+
+/* start body section  */
+
+.parvez {
+    width: 100%;
+    height: 813px;
+}
+
+.parvez::before {
+    content: '';
+    background: url('biography-bg.png');
+    background-size: cover;
+    width: 100%;
+    height: 820px;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+}
+
+
+/* end body section  */
+
+.item {
+    width: 100%;
+    height: 350px;
+}
+
+.item::before {
+    content: '';
+    background: url('latest-work-bg.png');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.faysal {
+    width: 100%;
+    margin: auto;
+    margin-left: 52px;
+}
+
+.item1 {
+    width: 32.5%;
+    float: left;
+}
+
+.item1 img {
+    width: 88%;
+    margin: 16px 0;
+}
+
+.faysal h1 {
+    color: rgb(118, 119, 49);
+    text-align: center;
+    font-size: 50px;
+    font-style: initial;
+}
+
+
+/* end item area */
+
+
+/* start footer area  */
+
+.section {
+    width: 100%;
+}
+
+.section::before {
+    content: '';
+    background: url('footer-bg.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    margin-top: 20px;
+    margin-left: -100%;
+}
+
+.width {
+    width: 40%;
+    margin: auto;
+}
+
+.width .clint {
+    width: 60%;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.width .clint1 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-style: unset;
+}
+
+.width .clint1 p {
+    font-size: 20px;
+}
+
+.width #para {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.mailaddress {
+    padding: 20px 110px;
+    text-align: center;
+    background-color: tomato;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+
+.mailaddress p {
+    color: rgb(11, 78, 64);
+    font-size: 20px;
+}
+
+.mailaddress a {
+    text-decoration: none;
+    color: green;
+    font-size: 30px;
+    text-align: center;
+    margin-left: -40px;
+}
+
+.thanks {
+    color: rgb(21, 156, 33);
+    font-size: 50px;
+    background-color: #91dafa;
+    text-align: center;
+}
